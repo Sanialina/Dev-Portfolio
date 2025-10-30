@@ -58,7 +58,7 @@ const Hero = () => {
   morphTime={1}
   cooldownTime={1}
   className="font-bold"
-  textClassName="text-lg sm:text-xl md:text-3xl lg:text-3xl"
+  textClassName="text-lg sm:text-xl md:text-2xl lg:text-3xl"
 />
 
             </span>
