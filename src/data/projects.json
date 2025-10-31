@@ -1,0 +1,158 @@
+[
+  {
+    "id": "styleme",
+    "title": "StyleMe",
+    "subtitle": "Adaptive Styling Assistant",
+    "shortDesc": "AI wardrobe expert that recommends outfits tailored to personal style and changing trends.",
+    "fullDescription": "StyleMe is an intelligent wardrobe assistant powered by AI vision models and autonomous task agents. It analyzes your personal style preferences, body type, and current trends to generate personalized outfit recommendations. The platform learns from your feedback to continuously improve suggestions, helping you look your best every day.",
+    "techStack": [
+      { "name": "React", "icon": "⚛️" },
+      { "name": "Tailwind", "icon": "🎨" },
+      { "name": "Vision AI", "icon": "👁️" },
+      { "name": "Autonomous Agents", "icon": "🤖" }
+    ],
+    "features": [
+      "AI-powered outfit recommendations based on personal style",
+      "Visual recognition for clothing items and color matching",
+      "Trend analysis and seasonal wardrobe updates",
+      "Outfit history and favorites management",
+      "Integration with shopping platforms for quick purchases",
+      "Virtual try-on capabilities"
+    ],
+    "audience": "Fashion enthusiasts, busy professionals, individuals seeking personalized style guidance",
+    "uniqueValue": "Combines computer vision with autonomous AI to create truly intelligent styling advice that adapts to individual preferences and evolving trends.",
+    "imageUrls": ["/StyleMe.jpeg"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  },
+  {
+    "id": "crunchtime",
+    "title": "CrunchTime",
+    "subtitle": "Autonomous Meal Assistant",
+    "shortDesc": "Smart food assistant that plans meals and tracks nutrition.",
+    "fullDescription": "CrunchTime is an intelligent meal planning platform that uses autonomous AI agents to create personalized nutrition plans. It analyzes dietary preferences, health goals, and available ingredients to generate meal recommendations and shopping lists. The system intelligently adapts recipes based on user feedback and nutritional objectives.",
+    "techStack": [
+      { "name": "Next.js", "icon": "⚡" },
+      { "name": "Node.js", "icon": "📦" },
+      { "name": "MongoDB", "icon": "🗄️" },
+      { "name": "AI Agents", "icon": "🤖" }
+    ],
+    "features": [
+      "Personalized meal planning based on dietary preferences",
+      "Automated shopping list generation",
+      "Nutritional tracking and analytics",
+      "Recipe suggestions based on available ingredients",
+      "Integration with grocery delivery services",
+      "Allergy and dietary restriction management"
+    ],
+    "audience": "Health-conscious individuals, busy professionals, people with specific dietary needs",
+    "uniqueValue": "Autonomous meal agents that understand nutrition science and adapt to user preferences in real-time.",
+    "imageUrls": ["/CrunchTime.jpeg"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  },
+  {
+    "id": "insightboard",
+    "title": "InsightBoard",
+    "subtitle": "Agentic Analytics System",
+    "shortDesc": "Smart analytics platform that delivers real-time insights and automated business decisions.",
+    "fullDescription": "InsightBoard is an enterprise analytics platform powered by agentic AI systems. It processes real-time data streams, identifies patterns, and automatically generates actionable insights. The platform uses autonomous decision-making agents to recommend business strategies based on data analysis.",
+    "techStack": [
+      { "name": "Next.js", "icon": "⚡" },
+      { "name": "WebSockets", "icon": "🔌" },
+      { "name": "REST APIs", "icon": "🌐" },
+      { "name": "Agentic AI", "icon": "🤖" }
+    ],
+    "features": [
+      "Real-time data visualization and dashboards",
+      "Automated anomaly detection and alerts",
+      "Predictive analytics with AI agents",
+      "Automated report generation",
+      "Custom KPI tracking and monitoring",
+      "Integration with multiple data sources"
+    ],
+    "audience": "Business analysts, data scientists, enterprise teams seeking intelligent analytics",
+    "uniqueValue": "Agentic workflow that not only analyzes data but autonomously recommends and implements business decisions.",
+    "imageUrls": ["/InsightBoard.jpg"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  },
+  {
+    "id": "careernest",
+    "title": "CareerNest",
+    "subtitle": "AI Career Navigator",
+    "shortDesc": "AI-driven career coach that maps skill growth, recommends roles, and unlocks better opportunities.",
+    "fullDescription": "CareerNest is an intelligent career development platform powered by agentic AI models. It creates personalized career roadmaps, identifies skill gaps, and recommends learning resources. The platform analyzes job market trends to suggest roles that align with your goals and current skill set.",
+    "techStack": [
+      { "name": "React", "icon": "⚛️" },
+      { "name": "Next.js", "icon": "⚡" },
+      { "name": "Framer Motion", "icon": "✨" },
+      { "name": "Agentic AI", "icon": "🤖" }
+    ],
+    "features": [
+      "Personalized career roadmap generation",
+      "Skill gap analysis and learning recommendations",
+      "Job market trend analysis",
+      "Interview preparation with AI coaching",
+      "Resume and portfolio optimization",
+      "Networking opportunity recommendations"
+    ],
+    "audience": "Job seekers, career changers, professionals seeking growth",
+    "uniqueValue": "AI-driven career coach that understands market dynamics and creates truly personalized growth paths.",
+    "imageUrls": ["/CareerNest.jpg"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  },
+  {
+    "id": "triporica",
+    "title": "Triporica",
+    "subtitle": "Autonomous Trip Planner",
+    "shortDesc": "Autonomous travel planner that builds smart itineraries and adjusts plans based on user needs.",
+    "fullDescription": "Triporica is an intelligent travel planning platform that uses autonomous AI agents to create personalized travel itineraries. The system learns user preferences, manages budgets, and dynamically adjusts plans based on weather, local events, and user feedback.",
+    "techStack": [
+      { "name": "Next.js", "icon": "⚡" },
+      { "name": "Server Actions", "icon": "⚙️" },
+      { "name": "Maps API", "icon": "🗺️" },
+      { "name": "Agentic AI", "icon": "🤖" }
+    ],
+    "features": [
+      "AI-powered itinerary creation based on interests",
+      "Budget tracking and optimization",
+      "Real-time weather and event integration",
+      "Restaurant and attraction recommendations",
+      "Dynamic re-planning based on user feedback",
+      "Local insider tips and hidden gems"
+    ],
+    "audience": "Adventure seekers, business travelers, vacation planners",
+    "uniqueValue": "Autonomous agents that adapt travel plans in real-time while maintaining budget and preference constraints.",
+    "imageUrls": ["/Triporica.jpg"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  },
+  {
+    "id": "cyferguard",
+    "title": "CyferGuard",
+    "subtitle": "Autonomous Cyber Defense",
+    "shortDesc": "Autonomous AI system that detects suspicious activity, prevents breaches, and protects user data in real time.",
+    "fullDescription": "CyferGuard is an advanced cybersecurity platform powered by autonomous AI systems. It continuously monitors network traffic, detects anomalies, and autonomously responds to threats in real-time. The system learns from threat patterns and adapts defense mechanisms accordingly.",
+    "techStack": [
+      { "name": "Next.js", "icon": "⚡" },
+      { "name": "Node.js", "icon": "📦" },
+      { "name": "TypeScript", "icon": "📘" },
+      { "name": "Agentic AI", "icon": "🤖" }
+    ],
+    "features": [
+      "Real-time threat detection and monitoring",
+      "Autonomous threat response and mitigation",
+      "Advanced anomaly detection using ML",
+      "Breach prevention and incident response",
+      "Security analytics and reporting",
+      "Integration with security infrastructure"
+    ],
+    "audience": "Enterprise IT teams, security professionals, organizations prioritizing cybersecurity",
+    "uniqueValue": "Autonomous AI defense system that proactively detects and responds to threats without human intervention.",
+    "imageUrls": ["/CyferGuard.jpg"],
+    "liveUrl": "https://example.com",
+    "githubUrl": "https://github.com"
+  }
+]

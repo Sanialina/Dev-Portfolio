@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, X } from 'lucide-react';
 import { RiRobot3Fill } from "react-icons/ri";
@@ -11,13 +12,16 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
 import './Projects.css';
 import { Vortex } from './ui/vortex';
+import projectsData from '../data/projects.json';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
+  const navigate = useNavigate();
 
   const projects = [
     {
       id: 1,
+      dataId: 'cyferguard',
       title: 'CyferGuard → Autonomous Cyber Defense',
       description: 'Autonomous AI system that detects suspicious activity, prevents breaches, and protects user data in real time.',
       image: '/CyferGuard.jpg',
@@ -28,6 +32,7 @@ const Projects = () => {
     },
     {
       id: 2,
+      dataId: 'careernest',
       title: 'CareerNest → AI Career Navigator',
       description: 'AI-driven career coach that maps skill growth, recommends roles, and unlocks better opportunities.',
       image: '/CareerNest.jpg',
@@ -38,6 +43,7 @@ const Projects = () => {
     },
     {
       id: 3,
+      dataId: 'insightboard',
       title: 'InsightBoard → Agentic Analytics System',
       description: 'Smart analytics platform that delivers real-time insights and automated business decisions.',
       image: '/InsightBoard.jpg',
@@ -48,6 +54,7 @@ const Projects = () => {
     },
     {
       id: 4,
+      dataId: 'crunchtime',
       title: 'CrunchTime → Autonomous Meal Assistant',
       description: 'Smart food assistant that plans meals and tracks nutrition.',
       image: '/CrunchTime.jpeg',
@@ -58,6 +65,7 @@ const Projects = () => {
     },
     {
       id: 5,
+      dataId: 'styleme',
       title: 'StyleMe → Adaptive Styling Assistant',
       description: 'AI wardrobe expert that recommends outfits tailored to personal style and changing trends.',
       image: '/StyleMe.jpeg',
@@ -68,6 +76,7 @@ const Projects = () => {
     },
     {
       id: 6,
+      dataId: 'triporica',
       title: 'Triporica → Autonomous Trip Planner',
       description: 'Autonomous travel planner that builds smart itineraries and adjusts plans based on user needs.',
       image: '/Triporica.jpg',
@@ -214,17 +223,15 @@ const Projects = () => {
                         ))}
                       </div>
                       <div className="flex items-center space-x-4">
-                        <motion.a
-                          href={project.github}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                        <motion.button
+                          onClick={() => navigate(`/projects/${project.dataId}`)}
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
-                          className="flex items-center space-x-2 neon-border px-4 py-2 rounded-lg hover:bg-neon-purple/10 transition-all"
+                          className="flex items-center space-x-2 neon-border px-4 py-2 rounded-lg hover:bg-neon-purple/10 transition-all cursor-pointer"
                         >
                           <RiRobot3Fill size={20} />
                           <span>Unveil</span>
-                        </motion.a>
+                        </motion.button>
                         <motion.a
                           href={project.live}
                           target="_blank"
